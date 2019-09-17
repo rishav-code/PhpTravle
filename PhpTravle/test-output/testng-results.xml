@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="10" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17503" started-at="2019-09-17T12:42:56Z" finished-at="2019-09-17T12:43:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17503" started-at="2019-09-17T12:42:56Z" finished-at="2019-09-17T12:43:13Z">
+      <class name="com.Phptravle.testscripts.BookingSummryTestscript">
+        <test-method status="PASS" signature="personalDetailsInput([Ljava.lang.String;)[pri:4, instance:com.Phptravle.testscripts.BookingSummryTestscript@5cb9f472]" name="personalDetailsInput" duration-ms="1997" started-at="2019-09-17T12:43:10Z" data-provider="personal_details" finished-at="2019-09-17T12:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@67af833b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalDetailsInput -->
+        <test-method status="PASS" signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.Phptravle.testscripts.BookingSummryTestscript@5cb9f472]" name="guestInfoInput" duration-ms="396" started-at="2019-09-17T12:43:12Z" data-provider="guest_details" finished-at="2019-09-17T12:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@b93aad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestInfoInput -->
+        <test-method status="PASS" signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.Phptravle.testscripts.BookingSummryTestscript@5cb9f472]" name="guestInfoInput" duration-ms="352" started-at="2019-09-17T12:43:12Z" data-provider="guest_details" finished-at="2019-09-17T12:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4a9419d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestInfoInput -->
+        <test-method status="PASS" signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.Phptravle.testscripts.BookingSummryTestscript@5cb9f472]" name="guestInfoInput" duration-ms="356" started-at="2019-09-17T12:43:12Z" data-provider="guest_details" finished-at="2019-09-17T12:43:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2f3c6ac4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestInfoInput -->
+        <test-method status="PASS" signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.Phptravle.testscripts.BookingSummryTestscript@5cb9f472]" name="guestInfoInput" duration-ms="339" started-at="2019-09-17T12:43:13Z" data-provider="guest_details" finished-at="2019-09-17T12:43:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2e8ab815]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestInfoInput -->
+      </class> <!-- com.Phptravle.testscripts.BookingSummryTestscript -->
+      <class name="com.phptravles.testbase.TestBase">
+        <test-method status="PASS" signature="intitailizeBrowser()[pri:0, instance:com.phptravles.testbase.TestBase@6e1567f1]" name="intitailizeBrowser" is-config="true" duration-ms="14385" started-at="2019-09-17T12:42:41Z" finished-at="2019-09-17T12:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+      </class> <!-- com.phptravles.testbase.TestBase -->
+      <class name="com.Phptravle.testscripts.BookingPageTestscript">
+        <test-method status="PASS" signature="BookingOption()[pri:3, instance:com.Phptravle.testscripts.BookingPageTestscript@cb644e]" name="BookingOption" duration-ms="6368" started-at="2019-09-17T12:43:03Z" finished-at="2019-09-17T12:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingOption -->
+      </class> <!-- com.Phptravle.testscripts.BookingPageTestscript -->
+      <class name="com.Phptravle.testscripts.HomePageTestscript">
+        <test-method status="PASS" signature="tourSearch(java.lang.String, java.lang.String)[pri:2, instance:com.Phptravle.testscripts.HomePageTestscript@13805618]" name="tourSearch" duration-ms="6724" started-at="2019-09-17T12:42:56Z" data-provider="home_page_data" finished-at="2019-09-17T12:43:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[27/09/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tourSearch -->
+        <test-method status="PASS" signature="processEnd()[pri:0, instance:com.Phptravle.testscripts.HomePageTestscript@13805618]" name="processEnd" is-config="true" duration-ms="809" started-at="2019-09-17T12:43:13Z" finished-at="2019-09-17T12:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processEnd -->
+      </class> <!-- com.Phptravle.testscripts.HomePageTestscript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

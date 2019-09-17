@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Phptravle.testscripts.HomePageTestscript">
+        <methods>
+          <include name="tourSearch" invocation-numbers="0"/>
+          <include name="intitailizeBrowser"/>
+          <include name="processEnd"/>
+        </methods>
+      </class> <!-- com.Phptravle.testscripts.HomePageTestscript -->
+      <class name="com.Phptravle.testscripts.BookingPageTestscript">
+        <methods>
+          <include name="BookingOption"/>
+        </methods>
+      </class> <!-- com.Phptravle.testscripts.BookingPageTestscript -->
+      <class name="com.Phptravle.testscripts.BookingSummryTestscript">
+        <methods>
+          <include name="personalDetailsInput" invocation-numbers="0"/>
+          <include name="guestInfoInput" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.Phptravle.testscripts.BookingSummryTestscript -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

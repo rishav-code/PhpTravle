@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Phptravle.testscripts.HomePageTestscript"/>
+      <class name="com.Phptravle.testscripts.BookingSummryTestscript"/>
+      <class name="com.Phptravle.testscripts.BookingPageTestscript"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

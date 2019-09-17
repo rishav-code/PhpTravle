@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Phptravle.testscripts.HomePageTestscript">
+        <methods>
+          <include name="tourSearch"/>
+          <include name="intitailizeBrowser"/>
+          <include name="processEnd"/>
+          <include name="cityInputValidation"/>
+        </methods>
+      </class> <!-- com.Phptravle.testscripts.HomePageTestscript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
